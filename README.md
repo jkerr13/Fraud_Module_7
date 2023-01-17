@@ -74,8 +74,8 @@ Original Instructions included in the Instructions.md file
         * 3 Outliers in April and June
 <br>
 <br>
-    * Do you notice any anomalies? Describe your observations and conclusions.
-        * The anomalies are the outliers.  You can see most months have at least one outlier.  It's hard to see from the graph, but if we zoom in 'hide' the outliers we can see that there are variances between the months.
+* Do you notice any anomalies? Describe your observations and conclusions.
+    * The anomalies are the outliers.  You can see most months have at least one outlier.  It's hard to see from the graph, but if we zoom in 'hide' the outliers we can see that there are variances between the months.
 ![Card Holder 25 Zoomed](./Images/Cardholder_25_Boxplot_Zoomed.png)
 
 
