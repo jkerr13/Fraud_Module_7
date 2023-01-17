@@ -46,6 +46,38 @@ Original Instructions included in the Instructions.md file
     * See the queries.sql file for details on how this data was obtained.  The full results can also be seen in the "Transactions Under $2.00 by Merchant" csv file.  The top 5 results are:<br>
 ![Chart](./Images/Transactions_Under_2_by_Merchant.png)
 
+## Part 2
+
+### The two most important customers of the firm may have been hacked. Verify if there are any fraudulent transactions in their history. For privacy reasons, you only know that their cardholder IDs are 2 and 18.
+
+* Using hvPlot, create a line plot representing the time series of transactions over the course of the year for each cardholder separately. 
+
+![Card Holder 2](./Images/Cardholder_2_Transactions.png)
+![Card Holder 18](./Images/Cardholder_18_Transactions.png)
+
+* Next, to better compare their patterns, create a single line plot that contains both card holders' trend data.  
+![Card Holder 2 and 18](./Images/Cardholder_2_18_Transactions.png)
+
+* What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale.
+    * From these charts, we can observe that each cardholder has different spending habits or possibly shows fraudulent transactions.  Cardholder 2 has a lot of variability in thier transactions, but all between about $2 and $20.  Cardholder 18 has some variability, but the small transactions are barely noticable between the very large transactions.  You see huge spikes in the line graphs which may indicate fraudulant transactions.
+
+### The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. Again, for privacy reasons, you know only that the cardholder ID in question is 25.
+
+* Using hvPlot, create a box plot, representing the expenditure data from January 2018 to June 2018 for cardholder ID 25.
+
+![Card Holder 25](./Images/Cardholder_25_Boxplot.png)
+  
+* Are there any outliers for cardholder ID 25? How many outliers are there per month?
+    * From this box plot, we can see that there are outliers for Cardholder25.  There are the following outliers:<br>
+        * No Outliers in February
+        * 1 Outlier in January, March and May
+        * 3 Outliers in April and June
+<br>
+<br>
+    * Do you notice any anomalies? Describe your observations and conclusions.
+        * The anomalies are the outliers.  You can see most months have at least one outlier.  It's hard to see from the graph, but if we zoom in 'hide' the outliers we can see that there are variances between the months.
+![Card Holder 25 Zoomed](./Images/Cardholder_25_Boxplot_Zoomed.png)
+
 
 
 
